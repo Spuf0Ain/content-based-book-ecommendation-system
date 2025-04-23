@@ -20,6 +20,17 @@ Dataset Description:
   
 The dataset is available at: [The best books (10k) Multigenre data](https://www.kaggle.com/datasets/ishikajohari/best-books-10k-multi-genre-data)
 
+Make sure to:
+
+  - Create the directory structure as specified.
+  - Place each code snippet into the corresponding .py file.
+  - Place your data file (e.g., short_goodreads_data.csv or goodreads_data.csv) inside the data/ folder.
+  - Update the DATA_FILE_PATH in main.py if necessary.
+  - Install the required libraries using the requirements.txt file provided earlier (pip install -r requirements.txt).
+  - Download the NLTK stopwords data (import nltk; nltk.download('stopwords')).
+
+You can then run the entire pipeline using python main.py from the project's root directory in your terminal.
+
 ***
 # Мазмұнға негізделген кітаптарды ұсыну жүйесі
 ***
@@ -41,6 +52,17 @@ Dataset сипаттамасы:
 4. Rating
   
 Dataset мына сілтеме бойынша қол жетімді: [үздік кітаптар (10k) көп жанрлық деректер](https://www.kaggle.com/datasets/ishikajohari/best-books-10k-multi-genre-data) 
+
+Бұған көз жеткізіңіз:
+
+  - Көрсетілгендей каталог құрылымын жасаңыз.
+  - Кодтың әр бөлігін тиісті .py файлына салыңыз.
+  - Деректер файлын орналастырыңыз (мысалы, short_goodreads_data.CSV немесе goodreads_data.csv) деректер/қалтасына. 
+  - Қажет болса, деректер файлының жолын жаңартыңыз main.py.
+  - Бұрын берілген requirements файлын пайдаланып қажетті кітапханаларды орнатыңыз.txt (pip install -r requirements.txt).
+  - Nltk stopwords деректерін жүктеңіз(nltk импорттаңыз; nltk.жүктеу ("тоқтату сөздері")).
+
+Содан кейін python көмегімен бүкіл құбырды іске қосуға болады main.py терминалдағы жобаның түбірлік каталогынан.
 
 ***
 # Система рекомендаций книг на основе контента
@@ -64,4 +86,13 @@ Dataset мына сілтеме бойынша қол жетімді: [үзді�
   
 Датасет доступен по ссылке: [Лучшие книги (10k) Мультижанровые данные](https://www.kaggle.com/datasets/ishikajohari/best-books-10k-multi-genre-data) 
 
+Убедитесь, что:
 
+  - Создайте структуру каталогов, как указано.
+  - Поместите каждый фрагмент кода в соответствующий файл .py.
+  - Поместите ваш файл данных (например, short_goodreads_data.csv или goodreads_data.csv) в папку data/.
+  - При необходимости обновите путь к файлу данных в main.py.
+  - Установите необходимые библиотеки, используя предоставленный ранее файл requirements.txt (pip install -r requirements.txt).
+  - Загрузите данные NLTK stopwords (импортируйте nltk; nltk.download("стоп-слова")).
+
+Затем вы можете запустить весь конвейер, используя python main.py из корневого каталога проекта в вашем терминале.
